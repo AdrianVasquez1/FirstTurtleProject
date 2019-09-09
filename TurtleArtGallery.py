@@ -25,7 +25,7 @@ for i in range(60):
 
 turtle.penup()
 turtle.goto(200, 100)
-turtle.right(65)
+turtle.right(115)
 turtle.pendown()
 
 turtle.color("saddle brown")
