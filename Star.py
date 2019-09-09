@@ -28,7 +28,7 @@ turtle.color("red")
 starSpiral()
 turtle.penup()
 turtle.forward(200)
-turtle.pendown
+turtle.pendown()
 
 turtle.color("yellow")
 starSpiral()
