@@ -1,6 +1,16 @@
 import turtle
 
+
+def square(sidelength):
+    for i in range(4):
+        turtle.forward(sidelength)
+        turtle.right(90)
+
 turtle.shape("turtle")
+turtle.penup()
+turtle.goto(-300, 300)
+turtle.pendown()
+square(600)
 turtle.penup()
 turtle.goto(-200, 100)
 turtle.speed(50)
@@ -8,10 +18,6 @@ turtle.pendown()
 turtle.color("saddle brown")
 
 
-def square(sidelength):
-    for i in range(4):
-        turtle.forward(sidelength)
-        turtle.right(90)
 
 
 for i in range(60):
@@ -41,7 +47,7 @@ for i in range(60):
 turtle.penup()
 turtle.goto(0, 0)
 turtle.pendown()
-turtle.right(115)
+turtle.right(65)
 
 
 def triangle(sidelength):
